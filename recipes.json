@@ -1,0 +1,116 @@
+{
+  "recipes": [
+    {
+      "id": "grilled-chicken-salad",
+      "name": "Grilled Chicken Salad",
+      "image": "https://source.unsplash.com/featured/?chicken-salad",
+      "prepTime": 20,
+      "cookTime": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "ingredients": [
+        {
+          "item": "chicken breast",
+          "amount": 200,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "item": "mixed greens",
+          "amount": 100,
+          "unit": "g",
+          "category": "vegetables"
+        },
+        {
+          "item": "cherry tomatoes",
+          "amount": 10,
+          "unit": "pieces",
+          "category": "vegetables"
+        },
+        {
+          "item": "cucumber",
+          "amount": 1,
+          "unit": "medium",
+          "category": "vegetables"
+        },
+        {
+          "item": "olive oil",
+          "amount": 2,
+          "unit": "tbsp",
+          "category": "condiments"
+        }
+      ],
+      "instructions": [
+        "Season chicken breast with salt and pepper",
+        "Grill chicken for 6-7 minutes per side until cooked through",
+        "Wash and chop all vegetables",
+        "Slice cooked chicken",
+        "Combine all ingredients in a bowl",
+        "Drizzle with olive oil and season to taste"
+      ],
+      "diet": ["gluten-free", "dairy-free"],
+      "nutrition": {
+        "calories": 350,
+        "protein": 35,
+        "carbs": 10,
+        "fat": 20
+      }
+    },
+    {
+      "id": "vegan-buddha-bowl",
+      "name": "Vegan Buddha Bowl",
+      "image": "https://source.unsplash.com/featured/?buddha-bowl",
+      "prepTime": 15,
+      "cookTime": 25,
+      "servings": 2,
+      "difficulty": "medium",
+      "ingredients": [
+        {
+          "item": "quinoa",
+          "amount": 100,
+          "unit": "g",
+          "category": "grains"
+        },
+        {
+          "item": "chickpeas",
+          "amount": 200,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "item": "sweet potato",
+          "amount": 1,
+          "unit": "medium",
+          "category": "vegetables"
+        },
+        {
+          "item": "kale",
+          "amount": 100,
+          "unit": "g",
+          "category": "vegetables"
+        },
+        {
+          "item": "tahini",
+          "amount": 2,
+          "unit": "tbsp",
+          "category": "condiments"
+        }
+      ],
+      "instructions": [
+        "Cook quinoa according to package instructions",
+        "Drain and rinse chickpeas, season and roast at 200°C for 20 minutes",
+        "Cube sweet potato and roast for 25 minutes",
+        "Massage kale with olive oil",
+        "Assemble bowl with all ingredients",
+        "Drizzle with tahini sauce"
+      ],
+      "diet": ["vegan", "gluten-free"],
+      "nutrition": {
+        "calories": 450,
+        "protein": 15,
+        "carbs": 65,
+        "fat": 15
+      }
+    }
+  ]
+}
